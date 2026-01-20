@@ -12,10 +12,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
-                    <li class="nav-item">
-                        <a class="nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/")) eq '/about.jsp' ? ' active' : ''}"
-                           href="${pageContext.request.contextPath}/About">About</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/")) eq '/cars.jsp' ? ' active' : ''}"
                            href="${pageContext.request.contextPath}/CarsServlet">Cars</a>
